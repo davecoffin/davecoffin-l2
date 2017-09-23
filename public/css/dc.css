@@ -1,0 +1,315 @@
+body {
+    background-color: #333;
+}
+
+.mont {
+    font-family: Montserrat;
+}
+
+.avenir {
+    font-family: Avenir;
+}
+
+a {
+    color: #0088cc;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0088cc;
+}
+
+.lt {
+    font-weight: lighter;
+    color: gray;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.padtop {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav img {
+    width: 160px;
+}
+
+nav {
+    font-family: Avenir, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+nav.homenav {
+    background-color: rgba(255,255,255,0.7);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+nav.nav-transtop {
+    background-color: rgba(255,255,255,0);
+}
+
+nav.floating, nav.secondarynav {
+    background-color: rgba(255,255,255,0.97);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    color: #333;
+}
+
+nav.secondarynav {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.navbar-brand #purle_logo {
+    display: none;
+}
+
+nav.floating #purle_logo, nav.secondarynav #purle_logo {
+    display: block;
+}
+
+nav.floating #white_logo, nav.secondarynav #white_logo {
+    display: none!important;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgba(255,255,255,.9);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: orange!important;
+}
+
+
+.floating.navbar-dark .navbar-nav .nav-link,
+.secondarynav.navbar-dark .navbar-nav .nav-link, 
+.floating.navbar-dark .title,
+.secondarynav.navbar-dark .title {
+    color: rgba(0,0,0,0.6);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.jumbotron {
+    background-image: url(/images/me2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    border-radius: 0px;
+    padding: 15rem 4rem 15rem 5rem;
+    color: white;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+}
+
+.floatingnav {
+    padding-top: 50px;
+}
+
+.person {
+    padding: 50px 0px;
+}
+
+.person img {
+    width: 50%;
+    margin: auto;
+    border-radius: 500px;
+    margin-left: 25%;
+    border: 2px solid #E0E0E0;
+}
+
+.person a {
+    color: gray;
+}
+
+.person a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+
+.person a.btn {
+    color: white;
+}
+
+
+
+.long_person_list {
+    display: flex;
+    width: 100%;
+}
+
+.long_person_list a {
+    flex-basis: 100%
+}
+
+.long_person_list img {
+    width: 100%;
+}
+
+footer {
+    display: block;
+    background-color: #333;
+    color: white;
+}
+
+footer .footer-header {
+    border-bottom: 1px solid white;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer .footer-header img {
+    height: 50px;
+}
+
+footer .footer-header span {
+    font-family: Lato;
+    font-weight: lighter;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 50px;
+    font-family: Montserrat;
+    padding-bottom: 50px;
+}
+
+footer .footer-content div {  
+    flex-basis: 0;;
+}
+
+footer .footer-content .about span {
+    
+}
+footer .footer-content .links {
+    flex-grow: 1;
+}
+footer .footer-content .about {
+    flex-grow: 1.5;
+    padding-right: 100px;
+}
+
+footer .footer-content .about p {
+    font-family: Lato;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer .footer-content ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+footer .footer-content ul li {
+    padding: 10px 5px;
+}
+
+footer .footer-content ul li a {
+    color: white;
+}
+
+footer .footer-content ul li.copyright {
+    font-family: Lato;
+    font-weight: lighter;
+}
+
+.callout {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 22px;
+    text-align: center;
+    color: gray;
+    font-weight: 300;
+}
+
+.offwhite_pad {
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+}
+
+.features img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.features h4 {
+    font-family: Avenir;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.features ul li {
+    font-family: Avenir;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 0px;
+}
+
+
+.screenshots img {
+    width: 100%;
+}
+
+.blog_entry a {
+    color: gray;
+    text-decoration: none;
+}
+
+.blog_entry {
+    border-bottom: 2px solid #0088cc;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.blog_entry .readmore {
+    display: block;
+    text-align: right;
+    color: #0088cc;
+}
+
+.blog_details {
+    color: gray;
+    font-size: 22px;
+    font-family: Avenir;
+    font-weight: lighter;
+}
+
+.contact i {
+    font-size: 80px;
+    color: #0088cc;
+}

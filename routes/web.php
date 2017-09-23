@@ -12,5 +12,35 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home', [
+        'pagename' => 'home'
+    ]);
+});
+Route::get('music', function () {
+    return view('music', [
+        'pagename' => 'music'
+    ]);
+});
+
+Route::get('code', function () {
+    return view('code', [
+        'pagename' => 'code'
+    ]);
+});
+
+Route::get('important', function () {
+    return view('important', [
+        'pagename' => 'important'
+    ]);
+});
+
+
+Route::get('blog', 'BlogController@index');
+
+Route::get('blog/{id}', 'BlogController@show');
+
+Route::get('contact', function () {
+    return view('contact', [
+        'pagename' => 'contact'
+    ]);
 });
