@@ -193,23 +193,23 @@ footer .footer-content {
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 50px;
-    font-family: Montserrat;
     padding-bottom: 50px;
+    font-family: Avenir;
 }
 
 footer .footer-content div {  
-    flex-basis: 0;;
+    /* flex-basis: 0;; */
 }
 
 footer .footer-content .about span {
     
 }
 footer .footer-content .links {
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 footer .footer-content .about {
-    flex-grow: 1.5;
-    padding-right: 100px;
+    /* flex-grow: 1.5;
+    padding-right: 100px; */
 }
 
 footer .footer-content .about p {
