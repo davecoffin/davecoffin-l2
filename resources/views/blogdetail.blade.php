@@ -11,7 +11,7 @@
 </div>
 <div class="container floatingnav">
     <!-- Example row of columns -->
-    <div class="row blog_details">
+    <div class="blog_details">
         @include('blogs.'.$blog_id)
     </div>
     <br /><br />

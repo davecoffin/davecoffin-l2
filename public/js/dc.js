@@ -9,11 +9,19 @@ $('document').ready(function() {
         if (scrollPos > 150) {
             if (!$('nav').hasClass('floating')) {
                 $('nav').addClass('floating');
+                if (!$('nav').hasClass('lighttop')) {
+                    $('nav').addClass('navbar-light');
+                    $('nav').removeClass('navbar-dark');
+                }
                 
             }
         } else {
             if ($('nav').hasClass('floating')) {
                 $('nav').removeClass('floating');
+                if (!$('nav').hasClass('lighttop')) {
+                    $('nav').addClass('navbar-dark');
+                    $('nav').removeClass('navbar-light');
+                }
                 
             }
         }

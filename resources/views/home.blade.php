@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Dave Coffin: Developer & Musician')
-@section('navClass', 'homenav navbar-light')
+@section('navClass', 'homenav navbar-light lighttop')
 @section('homeActive', 'active')
 
 @section('meta_description')

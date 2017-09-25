@@ -74,6 +74,7 @@
                         <span>ABOUT ME</span>
                         <p class="pr-md-5">I am a native mobile app developer, full stack web developer, a musician, and a husband/dad.</p>
                         <p>I am also proud to be a <a href="https://developer-experts-hub.firebaseapp.com/">TELERIK DEVELOPER EXPERT</a>.</p>
+                        <a href="https://developer-experts-hub.firebaseapp.com/"><img src="/images/expert_badge.png" style="width: 100px;" /></a>
                     </div>
                     <div class="links col-md-3">
                         <ul class="text-center text-md-left">

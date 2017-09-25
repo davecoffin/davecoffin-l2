@@ -60,7 +60,7 @@
             <div class="pb-5">
                 <center><h1 class="avenir lt">NativeScript, Progress & Telerik</h1></center>
                 I am proud to have been invited to particpate in Telerik's Developer Expert program, focusing on NativeScript, a cross platform mobile app framework.
-                I build cross platform apps using NativeScript, and also mentor members of the community, particpate in thought leadership on many mobile 
+                I build cross platform apps using NativeScript, and also mentor members of the community, participate in thought leadership on many mobile 
                 related subjects, and help others new to mobile development get ramped up with the framework.
                 <br /><br />
                 Learn about NativeScript <a href="http://nativescript.org" target="_blank">here</a>, and the Telerik Developer Expert program <a href="https://developer-experts-hub.firebaseapp.com/" target="_blank">here</a>.

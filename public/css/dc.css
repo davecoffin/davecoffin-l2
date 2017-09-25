@@ -184,7 +184,7 @@ footer .footer-header img {
 }
 
 footer .footer-header span {
-    font-family: Lato;
+    font-family: Avenir;
     font-weight: lighter;
 }
 
@@ -213,7 +213,7 @@ footer .footer-content .about {
 }
 
 footer .footer-content .about p {
-    font-family: Lato;
+    font-family: Avenir;
     font-weight: 200;
     font-size: 14px;
     line-height: 25px;
@@ -234,7 +234,7 @@ footer .footer-content ul li a {
 }
 
 footer .footer-content ul li.copyright {
-    font-family: Lato;
+    font-family: Avenir;
     font-weight: lighter;
 }
 
