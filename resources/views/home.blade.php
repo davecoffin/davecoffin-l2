@@ -5,7 +5,7 @@
 @section('homeActive', 'active')
 
 @section('meta_description')
-    <meta name="description" content="Shads has been doing this for a long time.">
+    <meta name="description" content="I am a native mobile app developer, full stack web developer, a musician, and a husband/dad.">
 @endsection
 
 @section('content')
