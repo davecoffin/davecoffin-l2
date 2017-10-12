@@ -8,6 +8,13 @@ class BlogController extends Controller
 {
     public function getBlogs() {
         $blogs = [];
+        $blogs['9-25-17-ios-safe-areas'] = [
+            "title" => "NativeScript, the iPhone X, and safe areas.",
+            "brief_description" => "As you all have heard by now, the 10th anniversary iPhone is coming out soon. It's called the iPhone X, and it has a controversial new design element they are calling the \"notch.\" I am not sold on this, but I haven't held the device yet. It looks ugly to me, which I...",
+            "date" => "October 12th, 2017",
+            "external_link" => false,
+            "image" => "http://bpc.h-cdn.co/assets/17/37/980x490/landscape-1505243244-iphone-x-announcement.jpg"
+        ];
         $blogs['9-22-17-hello-world'] = [
             "title" => "Hello World",
             "brief_description" => "I am a dad. I am also a software engineer. Like I imagine happens with probably all parents ever, my wife Jen and I had our first child and started thinking about all the products and services that would make our lives easier. There are so many solutions out there...",
