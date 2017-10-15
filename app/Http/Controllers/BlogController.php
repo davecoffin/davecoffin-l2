@@ -8,6 +8,13 @@ class BlogController extends Controller
 {
     public function getBlogs() {
         $blogs = [];
+        $blogs['10-15-17-custom-navbars'] = [
+            "title" => "Using custom Action Bars in NativeScript",
+            "brief_description" => "The Action Bar is one of the most prominent UI elements in mobile apps. Its houses the title of your view, your navigation controls, and often controls for key functionality in your apps. In the messages app for example, You've got an image of the person you're texting...",
+            "date" => "October 15th, 2017",
+            "external_link" => false,
+            "image" => "http://cdn.nanxiongnandi.com/bing/WestphaliaRoad_ROW12120574756_1366x768.jpg"
+        ];
         $blogs['9-25-17-ios-safe-areas'] = [
             "title" => "NativeScript, the iPhone X, and safe areas.",
             "brief_description" => "As you all have heard by now, the 10th anniversary iPhone is coming out soon. It's called the iPhone X, and it has a controversial new design element they are calling the \"notch.\" I am not sold on this, but I haven't held the device yet. It looks ugly to me, which I...",

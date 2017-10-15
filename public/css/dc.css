@@ -302,6 +302,14 @@ footer .footer-content ul li.copyright {
     color: #0088cc;
 }
 
+.blognote {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    margin: 50px 0px;
+}
+
 .blog_details {
     color: gray;
     font-size: 22px;
