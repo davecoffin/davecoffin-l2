@@ -8,6 +8,7 @@ class BlogController extends Controller
 {
     public function getBlogs() {
         $blogs = [];
+        
         $blogs['10-15-17-custom-navbars'] = [
             "title" => "Using custom Action Bars in NativeScript",
             "brief_description" => "The Action Bar is one of the most prominent UI elements in mobile apps. Its houses the title of your view, your navigation controls, and often controls for key functionality in your apps. In the messages app for example, You've got an image of the person you're texting...",
@@ -21,6 +22,12 @@ class BlogController extends Controller
             "date" => "October 12th, 2017",
             "external_link" => false,
             "image" => "http://bpc.h-cdn.co/assets/17/37/980x490/landscape-1505243244-iphone-x-announcement.jpg"
+        ];
+        $blogs['10-09-17-meet-dave-coffin-developer-expert-for-nativescript'] = [
+            "title" => "Meet Dave Coffin, Developer Expert for NativeScript",
+            "brief_description" => "Here's the article that was written about me being selected as a Telerik Developer Expert for my work in the NativeScript community.",
+            "date" => "October 9th, 2017",
+            "external_link" => "https://www.telerik.com/blogs/meet-dave-coffin-developer-expert-for-nativescript"
         ];
         $blogs['9-22-17-hello-world'] = [
             "title" => "Hello World",
