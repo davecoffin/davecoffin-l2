@@ -9,6 +9,14 @@ class BlogController extends Controller
     public function getBlogs() {
         $blogs = [];
 
+        $blogs['11-08-17-creating-a-nativescript-ui-plugin'] = [
+            "title" => "My Experience Creating My First NativeScript UI Plugin",
+            "brief_description" => "One of the coolest things about NativeScript is being able to access native APIs right out of the box. That means you don't need to wait for some organization or the open source community to expose access to brand new APIs released with new OS's, you can start fiddling...",
+            "date" => "November 8th, 2017",
+            "external_link" => false,
+            "image" => "https://images4.alphacoders.com/239/239474.jpg"
+        ];
+
         $blogs['10-31-17-nativescript-platform-declarations'] = [
             "title" => "Utilizing Platform Declarations in NativeScript",
             "brief_description" => "One of the coolest things about NativeScript is being able to access native APIs right out of the box. That means you don't need to wait for some organization or the open source community to expose access to brand new APIs released with new OS's, you can start fiddling...",
