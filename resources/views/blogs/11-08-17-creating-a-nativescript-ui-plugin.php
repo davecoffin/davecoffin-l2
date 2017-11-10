@@ -1,7 +1,7 @@
 <div>
     <p class="blognote">My daughter is turning 4 next week and we are hosting a unicorn party this weekend, hence my inspirational header image.</p>
 
-    <p>Pretty recently I wrote blog post about coming up with a mobile UI element that could handle selecting items from very large lists. I came up with somethink I think is really cool, so I wrote a blog post about it that was <a href="https://www.nativescript.org/blog/filterable-list-picker-in-nativescript" target="_blank">featured on NativeScript.org</a>.</p>
+    <p>Pretty recently I wrote blog post about coming up with a mobile UI element that could handle selecting items from very large lists. I came up with something I think is really cool, so I wrote a blog post about it that was <a href="https://www.nativescript.org/blog/filterable-list-picker-in-nativescript" target="_blank">featured on NativeScript.org</a>.</p>
 
     <p>I knew it would make a great plugin, but all I'd ever done is Cocoapods integrations and exposing some cool native iOS APIs. This plugin utilizes NativeScript views, no platform specific APIs needed at all. It's basically a functional wrapper around NativeScript functionality relatively easily achievable with out of the box NativeScript components.</p>
 
