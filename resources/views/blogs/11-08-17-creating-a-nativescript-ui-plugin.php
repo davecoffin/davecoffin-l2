@@ -164,6 +164,26 @@ sourceProperty.register(FilterableListpicker);
 }
 </xmp>
 
+</div>
+
+<div style="background-color: #d4ffc6; padding: 10px; border-radius: 10px; margin: 50px 0px;">
+    <p>I figured out how to avoid the setTimeout. Properties come with a defaultValue, as well as an onValueChanged callback. So instead of using the timeout, now I simply store my unfilteredSource array outside of my class so its accessible everywhere, and set the source when the value changes from undefined to something: </p>
+<xmp>export const sourceProperty = new Property<FilterableListpicker, ObservableArray<string>>({ name: "source", defaultValue: undefined, affectsLayout: true, valueChanged: (target, oldValue, newValue) => {
+    if (!oldValue) {
+        let parent: any = frame.topmost().getViewById('dc_flp_container').parent;
+        parent.visibility = "collapse";
+        newValue.forEach(element => {
+            unfilteredSource.push(element)
+        })
+    }    
+} });</xmp>
+
+    <p>It's worth pointing out why I need to set the visibility to collapsed on the parent if its iOS. This is because apparently iOS uses a ContentView to store the elements, and that view restricts the user from interacting with the content under it. Even though our GridLayout's visibility is set to hidden, on iOS we also need to set its parent view to hidden as well. This is an unforunate quirk.</p>
+
+</div>
+
+<div>
+
     <p>Then you'll notice I grab the textfield and watch the textChange event, and set the source to the filtered array.</p>
 
     <p>This works awesome. Since source is an <code>ObservableArray</code>, the array filters in front of our eyes.</p>
