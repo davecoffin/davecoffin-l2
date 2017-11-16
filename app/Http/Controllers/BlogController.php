@@ -9,6 +9,14 @@ class BlogController extends Controller
     public function getBlogs() {
         $blogs = [];
 
+        $blogs['11-16-17-how-i-got-webpack-to-work'] = [
+            "title" => "How I Got Webpack to Work (Finally) on My NativeScript Angular Project",
+            "brief_description" => "Recently I spent two days trying to wire up webpack for my NativeScript Angular project. Webpack is notoriously difficult to set up, so here's how I ended up doing it...",
+            "date" => "November 16th, 2017",
+            "external_link" => false,
+            "image" => "https://cl.ly/nlEv/Screen%20Shot%202017-11-16%20at%202.29.48%20PM.png"
+        ];
+
         $blogs['11-08-17-creating-a-nativescript-ui-plugin'] = [
             "title" => "My Experience Creating My First NativeScript UI Plugin",
             "brief_description" => "Pretty recently I wrote blog post about coming up with a mobile UI element that could handle selecting items from very large lists. I came up with something I think is really cool, so I wrote a blog post about it that was...",
