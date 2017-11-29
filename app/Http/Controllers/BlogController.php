@@ -9,6 +9,14 @@ class BlogController extends Controller
     public function getBlogs() {
         $blogs = [];
 
+        $blogs['11-29-17-creating-a-draggable-modal'] = [
+            "title" => "Adventures in Gestures: Creating a Draggable Modal",
+            "brief_description" => "Remember when Steve Jobs insisted that big phones are stupid? The iPhone 5 was designed to be as big as possible while still allowing a user's finger to touch controls anywhere on the screen. I totally agreed with that, and sort of still do, but when I hold an...",
+            "date" => "November 29th, 2017",
+            "external_link" => false,
+            "image" => "http://boygeniusreport.files.wordpress.com/2011/02/screen-shot-2011-02-24-at-4-04-16-pm110224212955.jpg?quality=98&strip=all&w=782"
+        ];
+
         $blogs['11-16-17-how-i-got-webpack-to-work'] = [
             "title" => "How I Got Webpack to Work (Finally) on My NativeScript Angular Project",
             "brief_description" => "Recently I spent two days trying to wire up webpack for my NativeScript Angular project. Webpack is notoriously difficult to set up, so here's how I ended up doing it...",
