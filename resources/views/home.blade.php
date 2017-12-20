@@ -23,7 +23,7 @@
 
     <div class="container callout center">
         <span>Hi there.<br /><br />I am a native mobile app developer, full stack web developer, a musician, and a husband/dad.</span><br /><br />
-        <img src="https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/20507799_10103730241333279_6464260542939352229_o.jpg?oh=c2aff219f6b68d9c3034cfd17d87d098&oe=59F3E70C" style="width: 400px; max-width: 100%; border-radius: 200px;"><br /><br />
+        <img src="https://dailynannyapp.com/images/family.png" style="width: 400px; max-width: 100%; border-radius: 10px;"><br /><br />
         <span>I do mainly cross platform native mobile development, and also full stack web development.</span>
     </div>
 
