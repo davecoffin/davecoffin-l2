@@ -24,7 +24,20 @@
     <div class="container callout center">
         <span>Hi there.<br /><br />I am a native mobile app developer, full stack web developer, a musician, and a husband/dad.</span><br /><br />
         <img src="https://dailynannyapp.com/images/family.png" style="width: 400px; max-width: 100%; border-radius: 10px;"><br /><br />
-        <span>I do mainly cross platform native mobile development, and also full stack web development.</span>
+        <span>I design, develop, launch and manage custom websites from scratch, including complicated API integrations, ecommerce, and CMS (content management) if needed. I also create cross platform mobile applications. Here are some of my projects:</span><br />
+        
+    </div>
+
+    <div class="container callout" style="text-align: left; max-width: 800px; margin: auto;">
+        <a href="http://dailynannyapp.com">Daily Nanny</a>: A native mobile application used by parents and nannies to communicate better. I designed and created the website and the mobile app.<br />
+        <a href="http://cubbynotes.com">Cubby Notes</a>: An application used by Daycares to keep in touch with parents. I designed and created the web application.<br />
+        <a href="http://nannyshifts.com">Nanny Shifts</a>: A native mobile application that helps nannies track their hours. I created the website and the mobile app, which will be launching soon.<br />
+        <a href="https://shads.com">Shads Advertising</a>: This is a custom site built for a promotional products vendor, including custom integration with Authorize.net for accepting invoice payments.<br />
+        <a href="https://smittyscinema.com">Smittys Cinema</a>: I built the website as well as a CMS system for staff to manage all content including integrating a movie database API to automatically gather movie information by a single ID.<br />
+        <a href="https://www.berklee.edu/academics/programs?return_title=Berklee%20Homepage&return_url=http://www.berklee.edu/&filter=210511,210531,210586">Berklee College of Music</a>: I created a filtering mechanism for their programs site. It dynamically filters programs based on your selected criteria.<br />
+        <a href="https://nimbit.com">Nimbit</a>: An application that helps musicians manage their careers. I created the website and the front end of the web application.<br />
+        <a href="https://my.presonus.com">MyPreSonus</a>: I created the user portal for all user's of PreSonus Audio software and hardware.<br />
+
     </div>
 
     <div class="offwhite_pad features" style="background-image: url(https://static.pexels.com/photos/3888/landscape-seascape-dark-clouds.jpg); background-size: cover; background-position: bottom center;">
