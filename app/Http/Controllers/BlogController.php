@@ -12,7 +12,7 @@ class BlogController extends Controller
         $blogs['01-11-18-using-workers'] = [
             "title" => "Using Workers in NativeScript",
             "brief_description" => "I hate worrying about performance. Its the least fun part of development. Its hard enough writing code that works, are we really expected to make it work well on all devices...",
-            "date" => "Janaury 11th, 2018",
+            "date" => "January 11th, 2018",
             "external_link" => false,
             "image" => "https://ohmy.disney.com/wp-content/uploads/2015/06/Snow-White_Dwarfs-mine.jpg"
         ];
