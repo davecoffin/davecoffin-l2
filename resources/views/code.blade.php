@@ -32,12 +32,24 @@
     <div class="row justify-content-md-center pt-5">
         <div class="col-sm-12 col-lg-8">
             <div class="pb-5">
+                <center><a href="http://nstudio.io" target="_blank"><img src="https://nstudio.io/assets/nstudio-logo.svg" width="300" style="background-color: #f75930; border-radius: 10px;"></a></center><br />
+                I work with an amazing team of developers on a wide range of projects, mainly focusing on cross platform native app development, but we do projects of all kinds.
+                
+                <br /><br />
+                Visit <a href="http://nstudio.io" target="_blank">nstudio.io</a> to learn more.
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-md-center pt-5">
+        <div class="col-sm-12 col-lg-8">
+            <div class="pb-5">
                 <center><h1 class="avenir lt">PreSonus</h1></center>
                 I work for PreSonus, an awesome company that manufactures audio recording equipment. I am responsible for their user portal, called MyPreSonus
                 and built the front end application, used by thousands of PreSonus customers to register products, learn how to use them, manage profile information
                 and more.
                 <br /><br />
-                I am also building a native cross platform mobile app for MyPreSonus, to be released soon!
+                I also built a native cross platform mobile app for MyPreSonus, check it out on <a href="https://itunes.apple.com/us/app/mypresonus/id1282534772?mt=8" target="_blank">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.presonus.mypresonus&hl=en" target="_blank">Android</a>!
                 <br /><br />
                 Visit <a href="http://presonus.com" target="_blank">presonus.com</a> to learn more.
             </div>
